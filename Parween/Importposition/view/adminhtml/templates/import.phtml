@@ -1,0 +1,5 @@
+<form class="import-shipping-form" action="<? echo $block->getFormActionUrl(); ?>" method="POST" enctype="multipart/form-data">
+    <?php echo $block->getBlockHtml('formkey'); ?>
+   <input type="file" id="upload_custom_file" name="upload_custom_file" />
+    <button type="submit">Import</button>
+  </form>

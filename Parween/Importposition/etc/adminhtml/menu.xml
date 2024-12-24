@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Parween_Importposition::manager" title="Import Position" module="Parween_Importposition" sortOrder="30" resource="Magento_Backend::content" />
+        <add id="Parween_Importposition::add_row" title="Import Position" module="Parween_Importposition" sortOrder="10" parent="Parween_Importposition::manager" action="importposition/Grid/Index" resource="Magento_Backend::content"/>
+    </menu>
+</config>

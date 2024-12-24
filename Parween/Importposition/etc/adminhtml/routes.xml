@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/** Grid adminhtml routes xml
+ * @category  Banner
+ * @package   Qualdev_Categorycollection
+ * @author    Banner
+ * @copyright Copyright (c) 2010-2016  Software Private Limited (https://Qualdev.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="importposition" frontName="importposition">
+            <module name="Parween_Importposition" />
+        </route>
+    </router>
+</config>
